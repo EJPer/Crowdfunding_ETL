@@ -1,0 +1,37 @@
+category
+-
+category_id CHAR(6) PK
+category VARCHAR
+
+
+subcategory
+-
+subcategory_id VARCHAR PK
+subcategory CHAR(9)
+
+campaign
+-
+cf_id INT PK
+contact_id INT
+company_name VARCHAR
+description VARCHAR
+goal FLOAT
+pledged FLOAT
+outcome FLOAT
+backers_count FLOAT
+country CHAR(2)
+currency CHAR(3)
+launch_date date
+end_date date
+category_id CHAR(6)
+category VARCHAR
+subcategory_id VARCHAR
+subcategory CHAR(9)
+
+contacts
+-
+contact_id INT PK
+first_name VARCHAR
+last_name VARCHAR
+email VARCHAR
+
