@@ -1,7 +1,7 @@
 category
 -
-category_id CHAR(6) PK
-category VARCHAR
+category_id CHAR(6) PK 
+category VARCHAR 
 
 
 subcategory
@@ -12,7 +12,7 @@ subcategory CHAR(9)
 campaign
 -
 cf_id INT PK
-contact_id INT
+contact_id INT FK - contacts.contact_id
 company_name VARCHAR
 description VARCHAR
 goal FLOAT
@@ -23,15 +23,16 @@ country CHAR(2)
 currency CHAR(3)
 launch_date date
 end_date date
-category_id CHAR(6)
+category_id CHAR(6) FK >- category.category_id
 category VARCHAR
-subcategory_id VARCHAR
+subcategory_id VARCHAR FK >- subcategory.subcategory_id
 subcategory CHAR(9)
 
 contacts
 -
-contact_id INT PK
+contact_id INT PK  
 first_name VARCHAR
 last_name VARCHAR
 email VARCHAR
+
 
