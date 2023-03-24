@@ -3,13 +3,17 @@
 
 ----drops if needed-------
 DROP TABLE "subcategory"
+;
 
 DROP TABLE "category"
 
+;
+
 DROP TABLE "campaign"
+;
 
 DROP TABLE "contacts"
-
+;
 -----table create------
 CREATE TABLE "category" (
     "category_id" CHAR(6)   NOT NULL,
