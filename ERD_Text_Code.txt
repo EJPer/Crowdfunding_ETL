@@ -17,16 +17,15 @@ company_name VARCHAR
 description VARCHAR
 goal FLOAT
 pledged FLOAT
-outcome FLOAT
+outcome VARCHAR
 backers_count FLOAT
-country CHAR(2)
-currency CHAR(3)
+country VARCHAR
+currency VARCHAR
 launch_date date
 end_date date
 category_id CHAR(6) FK >- category.category_id
-category VARCHAR
 subcategory_id VARCHAR FK >- subcategory.subcategory_id
-subcategory CHAR(9)
+
 
 contacts
 -
