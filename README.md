@@ -16,4 +16,4 @@ crowdfunding_db_schema.sql: Schema code to create and drop tables if needed. Als
 
 Resources: Contains exported CSVs as well as initial XLSX files for code
 
-
+SQL_Outputs: Screenshots containing the final SQL outputs of tables
